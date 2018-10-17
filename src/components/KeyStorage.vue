@@ -2,7 +2,7 @@
   <div class="keyStorage">
     <div class="container">
       <div class="notification">
-        <h1>Key Storage</h1>
+        <h1>Keep Your Keys Safe</h1>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CUSy7bVnnVg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br>
@@ -43,15 +43,17 @@
         <br>
         <h2>Quiz</h2>
         <p>
-          Check All That Apply
+          <b-checkbox>I agree with the Terms &amp; Conditions</b-checkbox>
           <br/>
           <b-checkbox>I am entirely responsible for the security managment of my private key</b-checkbox>
           <br/>
-          <b-checkbox>Volentix and/or partners, store a copy of my public key for me</b-checkbox>
+          <b-checkbox>I understand that Volentix and/or partners never have access to my private key</b-checkbox>
         </p>
         <br>
-        <button id="myButton" class="foo bar" onclick="window.location.href='/fileStorage'">File Storage</button>
-        <button id="myButton" class="foo bar" onclick="window.location.href='/writtenStorage'">Write It Down</button>
+        
+        <br>
+        <button id="myButton" class="foo bar" onclick="window.location.href='/fileStorage'">Save To File</button>
+        <button id="myButton" class="foo bar" onclick="window.location.href='/writtenStorage'">I Will Write It Down</button>
       </div>
     </div>
   </div>

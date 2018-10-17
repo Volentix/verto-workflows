@@ -2,7 +2,7 @@
   <div class="writtenStorage">
     <div class="container">
       <div class="notification">
-        <h1>Written Storage</h1>
+        <h1>How To Write Down Your Private Key</h1>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CUSy7bVnnVg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br>
@@ -28,7 +28,7 @@
         </p>
         <br><br>
         <p>
-          Do Not
+          Not Recommended
           <ol>
             <li>
               Take a photo/video with your cellphone or digital camera.
@@ -40,7 +40,9 @@
         </p>
         <br><br>
         <div class="field">
-            <b-checkbox>I am responsible for the managment of my private key</b-checkbox>
+          <b-checkbox>I understand WIFI will be disabled temporarily during the generation of keys </b-checkbox>
+            <br/>
+            <b-checkbox>I am responsible for the storage and management of my private key</b-checkbox>
             <br/>
             <b-checkbox>I understand that Volentix, nor any of its partners, are able to restore my private key</b-checkbox>
         </div>
